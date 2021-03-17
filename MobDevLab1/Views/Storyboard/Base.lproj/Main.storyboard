@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,7 +14,7 @@
             <objects>
                 <viewController id="SDS-MA-Myt" customClass="DrawingViewController" customModule="MobDevLab1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KzR-LT-lJe">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="5wH-B6-NlO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -22,7 +23,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Hf-NX-8vx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="580" y="556"/>
+            <point key="canvasLocation" x="-12" y="556"/>
         </scene>
         <!--Movies-->
         <scene sceneID="j73-vj-vnX">
@@ -39,7 +40,24 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vqm-bW-8cT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1551" y="556"/>
+            <point key="canvasLocation" x="772" y="556"/>
+        </scene>
+        <!--Photos-->
+        <scene sceneID="oFF-xa-T6a">
+            <objects>
+                <navigationController id="7gm-9l-kcv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Photos" image="camera.fill" catalog="system" id="zbF-PW-BJ1"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eRW-5N-BNi">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="yy0-hT-ygl" kind="relationship" relationship="rootViewController" id="a4Q-cQ-NwD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v01-Y9-a3c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1790" y="556"/>
         </scene>
         <!--List View Controller-->
         <scene sceneID="R8e-Hq-1ji">
@@ -143,7 +161,55 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mxx-aD-fsU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1550.7246376811595" y="1293.75"/>
+            <point key="canvasLocation" x="771" y="1278"/>
+        </scene>
+        <!--Photos View Controller-->
+        <scene sceneID="hkP-Ig-MBC">
+            <objects>
+                <viewController id="yy0-hT-ygl" customClass="PhotosViewController" customModule="MobDevLab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9ar-jc-YT3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="e8D-in-gdr">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewLayout key="collectionViewLayout" id="Y4n-xi-fon" customClass="MyCollectionViewLayout" customModule="MobDevLab1" customModuleProvider="target"/>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Pd8-j2-Ig0">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="118-6N-J2D">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YS8-AY-QSb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YS8-AY-QSb" firstAttribute="bottom" secondItem="e8D-in-gdr" secondAttribute="bottom" id="2RQ-Wd-Mm2"/>
+                            <constraint firstItem="e8D-in-gdr" firstAttribute="top" secondItem="YS8-AY-QSb" secondAttribute="top" id="7WF-gA-9zI"/>
+                            <constraint firstItem="e8D-in-gdr" firstAttribute="leading" secondItem="YS8-AY-QSb" secondAttribute="leading" id="ADc-La-2Ah"/>
+                            <constraint firstItem="YS8-AY-QSb" firstAttribute="trailing" secondItem="e8D-in-gdr" secondAttribute="trailing" id="Th6-A6-dFx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="OCO-94-mMO">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="wPX-xt-Goq">
+                            <connections>
+                                <action selector="openPhotos" destination="yy0-hT-ygl" id="jCi-o6-oEh"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="e8D-in-gdr" id="IZC-i1-l4K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J2h-YU-ibn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1790" y="1278"/>
         </scene>
         <!--Movie Details View Controller-->
         <scene sceneID="9ej-af-ZXZ">
@@ -326,7 +392,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KPu-sd-75J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1551" y="2085"/>
+            <point key="canvasLocation" x="770" y="2085"/>
         </scene>
         <!--FirstTab-->
         <scene sceneID="AP5-rn-7pr">
@@ -354,7 +420,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="76J-hD-30C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-345" y="556"/>
+            <point key="canvasLocation" x="-790" y="556"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="0Pi-fq-BQK">
@@ -369,6 +435,7 @@
                         <segue destination="5ZA-Bg-7EP" kind="relationship" relationship="viewControllers" id="RAT-E0-HpL"/>
                         <segue destination="SDS-MA-Myt" kind="relationship" relationship="viewControllers" id="fHg-9o-MK6"/>
                         <segue destination="o2r-q4-OSh" kind="relationship" relationship="viewControllers" id="3BH-ce-l6N"/>
+                        <segue destination="7gm-9l-kcv" kind="relationship" relationship="viewControllers" id="2DO-pM-7yY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TKN-aQ-Tp8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -393,10 +460,11 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BLY-Pg-fVa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="Zza-cL-8n4" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="580" y="2085"/>
+            <point key="canvasLocation" x="-13" y="2085"/>
         </scene>
     </scenes>
     <resources>
+        <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="film" catalog="system" width="128" height="93"/>
         <image name="moon.fill" catalog="system" width="128" height="121"/>
         <image name="pencil" catalog="system" width="128" height="113"/>

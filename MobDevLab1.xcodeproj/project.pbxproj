@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32001CA625FE41E400AD1DE4 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32001CA525FE41E400AD1DE4 /* PhotosViewController.swift */; };
+		32001CAB25FE525B00AD1DE4 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32001CA925FE525B00AD1DE4 /* MyCollectionViewCell.swift */; };
+		32001CAC25FE525B00AD1DE4 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32001CAA25FE525B00AD1DE4 /* MyCollectionViewCell.xib */; };
 		3204AA9825EAD4A70090A6F6 /* Poster_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3204AA9725EAD4A60090A6F6 /* Poster_06.jpg */; };
+		3209CC6F25FFDCD9008D78B3 /* MyCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3209CC6E25FFDCD9008D78B3 /* MyCollectionViewLayout.swift */; };
 		321AEA9025E00E8A000C123E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321AEA8F25E00E8A000C123E /* ListViewController.swift */; };
 		321AEAA325E01A7A000C123E /* MoviesList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 321AEAA225E01A7A000C123E /* MoviesList.txt */; };
 		329A027425DAB177001380B8 /* DiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329A027325DAB177001380B8 /* DiagramView.swift */; };
@@ -44,7 +48,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32001CA525FE41E400AD1DE4 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		32001CA925FE525B00AD1DE4 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		32001CAA25FE525B00AD1DE4 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 		3204AA9725EAD4A60090A6F6 /* Poster_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Poster_06.jpg; path = "../../../../../Downloads/Programming assignment 3 1/Posters/Poster_06.jpg"; sourceTree = "<group>"; };
+		3209CC6E25FFDCD9008D78B3 /* MyCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewLayout.swift; sourceTree = "<group>"; };
 		321AEA8F25E00E8A000C123E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		321AEAA225E01A7A000C123E /* MoviesList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = MoviesList.txt; sourceTree = "<group>"; };
 		329A027325DAB177001380B8 /* DiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramView.swift; sourceTree = "<group>"; };
@@ -151,6 +159,10 @@
 				32FC8D4D25E1639C00377BE2 /* CustomTableViewCell.swift */,
 				32C6066F25E7A5BD00230A2A /* MovieDetailsViewController.swift */,
 				32DC4E4525ED2D7700A2234B /* AddMovieViewController.swift */,
+				32001CA525FE41E400AD1DE4 /* PhotosViewController.swift */,
+				32001CA925FE525B00AD1DE4 /* MyCollectionViewCell.swift */,
+				32001CAA25FE525B00AD1DE4 /* MyCollectionViewCell.xib */,
+				3209CC6E25FFDCD9008D78B3 /* MyCollectionViewLayout.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -272,6 +284,7 @@
 				32FC8D5C25E186A500377BE2 /* Poster_03.jpg in Resources */,
 				32FE2F2225E6AEE700EF4452 /* tt0076759.txt in Resources */,
 				32BC842A25CEDA0600DB61EA /* LaunchScreen.storyboard in Resources */,
+				32001CAC25FE525B00AD1DE4 /* MyCollectionViewCell.xib in Resources */,
 				32FE2F1B25E6AEE700EF4452 /* tt0120915.txt in Resources */,
 				32FC8D6025E186A500377BE2 /* Poster_05.jpg in Resources */,
 				3204AA9825EAD4A70090A6F6 /* Poster_06.jpg in Resources */,
@@ -297,13 +310,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				32C6067025E7A5BD00230A2A /* MovieDetailsViewController.swift in Sources */,
+				32001CA625FE41E400AD1DE4 /* PhotosViewController.swift in Sources */,
 				32FC8D4E25E1639C00377BE2 /* CustomTableViewCell.swift in Sources */,
 				329A027425DAB177001380B8 /* DiagramView.swift in Sources */,
 				32F055D825D580DB00ADCC38 /* DrawingViewController.swift in Sources */,
 				32FE2F0C25E6A36000EF4452 /* ViewController.swift in Sources */,
 				32ECE1A025E1299B00F1D58C /* CodableMovies.swift in Sources */,
 				32BC841E25CED9FF00DB61EA /* AppDelegate.swift in Sources */,
+				32001CAB25FE525B00AD1DE4 /* MyCollectionViewCell.swift in Sources */,
 				32F055DC25D59BCD00ADCC38 /* GraphView.swift in Sources */,
+				3209CC6F25FFDCD9008D78B3 /* MyCollectionViewLayout.swift in Sources */,
 				32EBF23D25E9779A00C26A33 /* Manager.swift in Sources */,
 				32BC842025CED9FF00DB61EA /* SceneDelegate.swift in Sources */,
 				321AEA9025E00E8A000C123E /* ListViewController.swift in Sources */,
