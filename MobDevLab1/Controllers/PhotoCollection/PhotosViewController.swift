@@ -31,9 +31,7 @@ class PhotosViewController: UIViewController {
         super.viewDidLayoutSubviews()
         collectionView.collectionViewLayout.invalidateLayout()
     }
-    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-        //self.collectionView.reloadData()
-    }
+    
 }
 
 extension PhotosViewController: UICollectionViewDelegate, UICollectionViewDataSource{

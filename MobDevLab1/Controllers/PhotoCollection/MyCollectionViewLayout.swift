@@ -28,6 +28,7 @@ class MyCollectionViewLayout: UICollectionViewLayout {
 
     override func invalidateLayout() {
         super.invalidateLayout()
+        contentHeight = 0
         cache = []
     }
     
