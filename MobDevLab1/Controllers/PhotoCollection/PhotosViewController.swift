@@ -38,12 +38,13 @@ class PhotosViewController: UIViewController {
 
 extension PhotosViewController: UICollectionViewDelegate, UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 18
+        return arrayOfPictures.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCollectionViewCell", for: indexPath) as! MyCollectionViewCell
-        cell.configure(image: UIImage(named: "AppIcon")!)
+        cell.configure(image: arrayOfPictures[indexPath.item])
+
         
         return cell
     }
@@ -76,6 +77,7 @@ extension PhotosViewController: UIImagePickerControllerDelegate, UINavigationCon
         picker.dismiss(animated: true, completion: nil)
         guard let newImage = info[.originalImage] as? UIImage else { return }
         arrayOfPictures.append(newImage)
+        collectionView.reloadData()
     }
         
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {

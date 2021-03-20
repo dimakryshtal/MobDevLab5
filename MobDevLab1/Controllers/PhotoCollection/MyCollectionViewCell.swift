@@ -16,10 +16,7 @@ class MyCollectionViewCell: UICollectionViewCell {
     }
     
     public func configure(image: UIImage) {
-        myImageView.backgroundColor = .blue
-        
+        myImageView.backgroundColor = .gray
+        myImageView.image = image
     }
-    
-    
-
 }

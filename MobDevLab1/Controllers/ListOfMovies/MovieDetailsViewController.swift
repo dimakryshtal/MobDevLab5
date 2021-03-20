@@ -17,6 +17,7 @@ class MovieDetailsViewController: UIViewController {
     @IBOutlet var year: UILabel!
     @IBOutlet var director: UILabel!
     @IBOutlet var actors: UILabel!
+    
     @IBOutlet var country: UILabel!
     @IBOutlet var language: UILabel!
     @IBOutlet var production: UILabel!

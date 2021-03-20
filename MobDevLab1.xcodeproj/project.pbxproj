@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11E2116C2603C18A00200362 /* Poster_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11E2116B2603C18A00200362 /* Poster_06.jpg */; };
+		11E2117A2603C24800200362 /* tt0121766.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11E211702603C24700200362 /* tt0121766.txt */; };
+		11E2117B2603C24800200362 /* tt0120915.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11E211712603C24700200362 /* tt0120915.txt */; };
+		11E2117C2603C24800200362 /* tt0796366.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11E211722603C24700200362 /* tt0796366.txt */; };
+		11E2117D2603C24800200362 /* tt0080684.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11E211732603C24700200362 /* tt0080684.txt */; };
+		11E2117E2603C24800200362 /* tt0076759.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11E211742603C24700200362 /* tt0076759.txt */; };
+		11E2117F2603C24800200362 /* tt2527336.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11E211752603C24800200362 /* tt2527336.txt */; };
+		11E211802603C24800200362 /* tt0086190.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11E211762603C24800200362 /* tt0086190.txt */; };
+		11E211812603C24800200362 /* tt2488496.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11E211772603C24800200362 /* tt2488496.txt */; };
+		11E211822603C24800200362 /* tt3748528.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11E211782603C24800200362 /* tt3748528.txt */; };
+		11E211832603C24800200362 /* tt0121765.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11E211792603C24800200362 /* tt0121765.txt */; };
 		32001CA625FE41E400AD1DE4 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32001CA525FE41E400AD1DE4 /* PhotosViewController.swift */; };
 		32001CAB25FE525B00AD1DE4 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32001CA925FE525B00AD1DE4 /* MyCollectionViewCell.swift */; };
 		32001CAC25FE525B00AD1DE4 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32001CAA25FE525B00AD1DE4 /* MyCollectionViewCell.xib */; };
-		3204AA9825EAD4A70090A6F6 /* Poster_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3204AA9725EAD4A60090A6F6 /* Poster_06.jpg */; };
 		3209CC6F25FFDCD9008D78B3 /* MyCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3209CC6E25FFDCD9008D78B3 /* MyCollectionViewLayout.swift */; };
 		321AEA9025E00E8A000C123E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321AEA8F25E00E8A000C123E /* ListViewController.swift */; };
 		321AEAA325E01A7A000C123E /* MoviesList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 321AEAA225E01A7A000C123E /* MoviesList.txt */; };
@@ -35,23 +45,23 @@
 		32FC8D5F25E186A500377BE2 /* Poster_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32FC8D5825E186A500377BE2 /* Poster_10.jpg */; };
 		32FC8D6025E186A500377BE2 /* Poster_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32FC8D5925E186A500377BE2 /* Poster_05.jpg */; };
 		32FE2F0C25E6A36000EF4452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FE2F0B25E6A36000EF4452 /* ViewController.swift */; };
-		32FE2F1B25E6AEE700EF4452 /* tt0120915.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32FE2F1125E6AEE500EF4452 /* tt0120915.txt */; };
-		32FE2F1C25E6AEE700EF4452 /* tt2527336.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32FE2F1225E6AEE500EF4452 /* tt2527336.txt */; };
-		32FE2F1D25E6AEE700EF4452 /* tt0796366.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32FE2F1325E6AEE500EF4452 /* tt0796366.txt */; };
-		32FE2F1E25E6AEE700EF4452 /* tt0121766.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32FE2F1425E6AEE500EF4452 /* tt0121766.txt */; };
-		32FE2F1F25E6AEE700EF4452 /* tt0080684.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32FE2F1525E6AEE600EF4452 /* tt0080684.txt */; };
-		32FE2F2025E6AEE700EF4452 /* tt0086190.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32FE2F1625E6AEE600EF4452 /* tt0086190.txt */; };
-		32FE2F2125E6AEE700EF4452 /* tt0121765.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32FE2F1725E6AEE600EF4452 /* tt0121765.txt */; };
-		32FE2F2225E6AEE700EF4452 /* tt0076759.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32FE2F1825E6AEE600EF4452 /* tt0076759.txt */; };
-		32FE2F2325E6AEE700EF4452 /* tt3748528.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32FE2F1925E6AEE600EF4452 /* tt3748528.txt */; };
-		32FE2F2425E6AEE700EF4452 /* tt2488496.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32FE2F1A25E6AEE600EF4452 /* tt2488496.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11E2116B2603C18A00200362 /* Poster_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Poster_06.jpg; sourceTree = "<group>"; };
+		11E211702603C24700200362 /* tt0121766.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tt0121766.txt; sourceTree = "<group>"; };
+		11E211712603C24700200362 /* tt0120915.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tt0120915.txt; sourceTree = "<group>"; };
+		11E211722603C24700200362 /* tt0796366.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tt0796366.txt; sourceTree = "<group>"; };
+		11E211732603C24700200362 /* tt0080684.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tt0080684.txt; sourceTree = "<group>"; };
+		11E211742603C24700200362 /* tt0076759.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tt0076759.txt; sourceTree = "<group>"; };
+		11E211752603C24800200362 /* tt2527336.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tt2527336.txt; sourceTree = "<group>"; };
+		11E211762603C24800200362 /* tt0086190.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tt0086190.txt; sourceTree = "<group>"; };
+		11E211772603C24800200362 /* tt2488496.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tt2488496.txt; sourceTree = "<group>"; };
+		11E211782603C24800200362 /* tt3748528.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tt3748528.txt; sourceTree = "<group>"; };
+		11E211792603C24800200362 /* tt0121765.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tt0121765.txt; sourceTree = "<group>"; };
 		32001CA525FE41E400AD1DE4 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		32001CA925FE525B00AD1DE4 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		32001CAA25FE525B00AD1DE4 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
-		3204AA9725EAD4A60090A6F6 /* Poster_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Poster_06.jpg; path = "../../../../../Downloads/Programming assignment 3 1/Posters/Poster_06.jpg"; sourceTree = "<group>"; };
 		3209CC6E25FFDCD9008D78B3 /* MyCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewLayout.swift; sourceTree = "<group>"; };
 		321AEA8F25E00E8A000C123E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		321AEAA225E01A7A000C123E /* MoviesList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = MoviesList.txt; sourceTree = "<group>"; };
@@ -78,16 +88,6 @@
 		32FC8D5825E186A500377BE2 /* Poster_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Poster_10.jpg; sourceTree = "<group>"; };
 		32FC8D5925E186A500377BE2 /* Poster_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Poster_05.jpg; sourceTree = "<group>"; };
 		32FE2F0B25E6A36000EF4452 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		32FE2F1125E6AEE500EF4452 /* tt0120915.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tt0120915.txt; path = "../../../../../Downloads/Programming assignment 4 1/tt0120915.txt"; sourceTree = "<group>"; };
-		32FE2F1225E6AEE500EF4452 /* tt2527336.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tt2527336.txt; path = "../../../../../Downloads/Programming assignment 4 1/tt2527336.txt"; sourceTree = "<group>"; };
-		32FE2F1325E6AEE500EF4452 /* tt0796366.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tt0796366.txt; path = "../../../../../Downloads/Programming assignment 4 1/tt0796366.txt"; sourceTree = "<group>"; };
-		32FE2F1425E6AEE500EF4452 /* tt0121766.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tt0121766.txt; path = "../../../../../Downloads/Programming assignment 4 1/tt0121766.txt"; sourceTree = "<group>"; };
-		32FE2F1525E6AEE600EF4452 /* tt0080684.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tt0080684.txt; path = "../../../../../Downloads/Programming assignment 4 1/tt0080684.txt"; sourceTree = "<group>"; };
-		32FE2F1625E6AEE600EF4452 /* tt0086190.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tt0086190.txt; path = "../../../../../Downloads/Programming assignment 4 1/tt0086190.txt"; sourceTree = "<group>"; };
-		32FE2F1725E6AEE600EF4452 /* tt0121765.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tt0121765.txt; path = "../../../../../Downloads/Programming assignment 4 1/tt0121765.txt"; sourceTree = "<group>"; };
-		32FE2F1825E6AEE600EF4452 /* tt0076759.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tt0076759.txt; path = "../../../../../Downloads/Programming assignment 4 1/tt0076759.txt"; sourceTree = "<group>"; };
-		32FE2F1925E6AEE600EF4452 /* tt3748528.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tt3748528.txt; path = "../../../../../Downloads/Programming assignment 4 1/tt3748528.txt"; sourceTree = "<group>"; };
-		32FE2F1A25E6AEE600EF4452 /* tt2488496.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tt2488496.txt; path = "../../../../../Downloads/Programming assignment 4 1/tt2488496.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +101,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1146FFB426066ECB00334916 /* ListOfMovies */ = {
+			isa = PBXGroup;
+			children = (
+				32DC4E4525ED2D7700A2234B /* AddMovieViewController.swift */,
+				32C6066F25E7A5BD00230A2A /* MovieDetailsViewController.swift */,
+				32FC8D4D25E1639C00377BE2 /* CustomTableViewCell.swift */,
+				321AEA8F25E00E8A000C123E /* ListViewController.swift */,
+			);
+			path = ListOfMovies;
+			sourceTree = "<group>";
+		};
+		1146FFB526066F1900334916 /* PhotoCollection */ = {
+			isa = PBXGroup;
+			children = (
+				32001CAA25FE525B00AD1DE4 /* MyCollectionViewCell.xib */,
+				3209CC6E25FFDCD9008D78B3 /* MyCollectionViewLayout.swift */,
+				32001CA925FE525B00AD1DE4 /* MyCollectionViewCell.swift */,
+				32001CA525FE41E400AD1DE4 /* PhotosViewController.swift */,
+			);
+			path = PhotoCollection;
+			sourceTree = "<group>";
+		};
+		11E2116F2603C1FA00200362 /* MoviesDescription */ = {
+			isa = PBXGroup;
+			children = (
+				11E211742603C24700200362 /* tt0076759.txt */,
+				11E211732603C24700200362 /* tt0080684.txt */,
+				11E211762603C24800200362 /* tt0086190.txt */,
+				11E211712603C24700200362 /* tt0120915.txt */,
+				11E211792603C24800200362 /* tt0121765.txt */,
+				11E211702603C24700200362 /* tt0121766.txt */,
+				11E211722603C24700200362 /* tt0796366.txt */,
+				11E211772603C24800200362 /* tt2488496.txt */,
+				11E211752603C24800200362 /* tt2527336.txt */,
+				11E211782603C24800200362 /* tt3748528.txt */,
+			);
+			path = MoviesDescription;
+			sourceTree = "<group>";
+		};
 		321AEA8D25E0035A000C123E /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +154,7 @@
 		321AEA9225E00FCE000C123E /* AdditionalFiles */ = {
 			isa = PBXGroup;
 			children = (
-				32FE2F1025E6AAC300EF4452 /* MoviesDescription */,
+				11E2116F2603C1FA00200362 /* MoviesDescription */,
 				32FE2F0625E698DF00EF4452 /* Posters */,
 				321AEAA225E01A7A000C123E /* MoviesList.txt */,
 			);
@@ -155,14 +194,8 @@
 			children = (
 				32FE2F0B25E6A36000EF4452 /* ViewController.swift */,
 				32F055D725D580DB00ADCC38 /* DrawingViewController.swift */,
-				321AEA8F25E00E8A000C123E /* ListViewController.swift */,
-				32FC8D4D25E1639C00377BE2 /* CustomTableViewCell.swift */,
-				32C6066F25E7A5BD00230A2A /* MovieDetailsViewController.swift */,
-				32DC4E4525ED2D7700A2234B /* AddMovieViewController.swift */,
-				32001CA525FE41E400AD1DE4 /* PhotosViewController.swift */,
-				32001CA925FE525B00AD1DE4 /* MyCollectionViewCell.swift */,
-				32001CAA25FE525B00AD1DE4 /* MyCollectionViewCell.xib */,
-				3209CC6E25FFDCD9008D78B3 /* MyCollectionViewLayout.swift */,
+				1146FFB426066ECB00334916 /* ListOfMovies */,
+				1146FFB526066F1900334916 /* PhotoCollection */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -174,7 +207,7 @@
 				32FC8D5725E186A500377BE2 /* Poster_02.jpg */,
 				32FC8D5525E186A400377BE2 /* Poster_03.jpg */,
 				32FC8D5925E186A500377BE2 /* Poster_05.jpg */,
-				3204AA9725EAD4A60090A6F6 /* Poster_06.jpg */,
+				11E2116B2603C18A00200362 /* Poster_06.jpg */,
 				32FC8D5325E186A400377BE2 /* Poster_07.jpg */,
 				32FC8D5425E186A400377BE2 /* Poster_08.jpg */,
 				32FC8D5825E186A500377BE2 /* Poster_10.jpg */,
@@ -200,23 +233,6 @@
 				32EBF23C25E9779A00C26A33 /* Manager.swift */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		32FE2F1025E6AAC300EF4452 /* MoviesDescription */ = {
-			isa = PBXGroup;
-			children = (
-				32FE2F1825E6AEE600EF4452 /* tt0076759.txt */,
-				32FE2F1525E6AEE600EF4452 /* tt0080684.txt */,
-				32FE2F1625E6AEE600EF4452 /* tt0086190.txt */,
-				32FE2F1125E6AEE500EF4452 /* tt0120915.txt */,
-				32FE2F1725E6AEE600EF4452 /* tt0121765.txt */,
-				32FE2F1425E6AEE500EF4452 /* tt0121766.txt */,
-				32FE2F1325E6AEE500EF4452 /* tt0796366.txt */,
-				32FE2F1A25E6AEE600EF4452 /* tt2488496.txt */,
-				32FE2F1225E6AEE500EF4452 /* tt2527336.txt */,
-				32FE2F1925E6AEE600EF4452 /* tt3748528.txt */,
-			);
-			path = MoviesDescription;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,29 +292,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FE2F2325E6AEE700EF4452 /* tt3748528.txt in Resources */,
 				321AEAA325E01A7A000C123E /* MoviesList.txt in Resources */,
-				32FE2F2425E6AEE700EF4452 /* tt2488496.txt in Resources */,
 				32FC8D5D25E186A500377BE2 /* Poster_01.jpg in Resources */,
+				11E211822603C24800200362 /* tt3748528.txt in Resources */,
+				11E211812603C24800200362 /* tt2488496.txt in Resources */,
+				11E2117A2603C24800200362 /* tt0121766.txt in Resources */,
+				11E211802603C24800200362 /* tt0086190.txt in Resources */,
 				32FC8D5A25E186A500377BE2 /* Poster_07.jpg in Resources */,
 				32FC8D5C25E186A500377BE2 /* Poster_03.jpg in Resources */,
-				32FE2F2225E6AEE700EF4452 /* tt0076759.txt in Resources */,
+				11E2117B2603C24800200362 /* tt0120915.txt in Resources */,
+				11E2117D2603C24800200362 /* tt0080684.txt in Resources */,
 				32BC842A25CEDA0600DB61EA /* LaunchScreen.storyboard in Resources */,
 				32001CAC25FE525B00AD1DE4 /* MyCollectionViewCell.xib in Resources */,
-				32FE2F1B25E6AEE700EF4452 /* tt0120915.txt in Resources */,
+				11E2117E2603C24800200362 /* tt0076759.txt in Resources */,
+				11E2117C2603C24800200362 /* tt0796366.txt in Resources */,
 				32FC8D6025E186A500377BE2 /* Poster_05.jpg in Resources */,
-				3204AA9825EAD4A70090A6F6 /* Poster_06.jpg in Resources */,
-				32FE2F1C25E6AEE700EF4452 /* tt2527336.txt in Resources */,
-				32FE2F2025E6AEE700EF4452 /* tt0086190.txt in Resources */,
-				32FE2F1E25E6AEE700EF4452 /* tt0121766.txt in Resources */,
+				11E2117F2603C24800200362 /* tt2527336.txt in Resources */,
 				32FC8D5F25E186A500377BE2 /* Poster_10.jpg in Resources */,
-				32FE2F2125E6AEE700EF4452 /* tt0121765.txt in Resources */,
 				32BC842725CEDA0600DB61EA /* Assets.xcassets in Resources */,
 				32FC8D5B25E186A500377BE2 /* Poster_08.jpg in Resources */,
 				32FC8D5E25E186A500377BE2 /* Poster_02.jpg in Resources */,
-				32FE2F1F25E6AEE700EF4452 /* tt0080684.txt in Resources */,
-				32FE2F1D25E6AEE700EF4452 /* tt0796366.txt in Resources */,
+				11E2116C2603C18A00200362 /* Poster_06.jpg in Resources */,
 				32BC842525CED9FF00DB61EA /* Main.storyboard in Resources */,
+				11E211832603C24800200362 /* tt0121765.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
