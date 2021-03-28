@@ -37,7 +37,13 @@ class ListViewController: UIViewController {
 
 extension ListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
         if searching {
+            if(searchArr.count == 0) {
+                tableView.setEmptyView()
+            } else {
+                tableView.restore()
+            }
             return searchArr.count
         } else {
             return moviesArr.count
@@ -147,5 +153,31 @@ extension ListViewController {
     }
     @objc func dismissKeyboard() {
         view.endEditing(true)
+    }
+}
+
+extension UITableView {
+    func setEmptyView () {
+        let emptyView = UIView(frame: CGRect(x: self.center.x, y: self.center.y, width: self.bounds.size.width, height: self.bounds.size.height))
+        let label = UILabel()
+        emptyView.addSubview(label)
+
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.centerYAnchor.constraint(equalTo: emptyView.centerYAnchor).isActive = true
+        label.centerXAnchor.constraint(equalTo: emptyView.centerXAnchor).isActive = true
+        
+        label.text = "No items found"
+        label.textColor = .black
+        label.numberOfLines = 0
+        label.textAlignment = .center
+        
+        self.backgroundView = emptyView
+        self.separatorStyle = .none
+        
+    }
+    
+    func restore() {
+        self.backgroundView = nil
+        self.separatorStyle = .none
     }
 }
